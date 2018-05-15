@@ -14,3 +14,38 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+//@import url(http://fonts.googleapis.com/css?family=Oxygen);
+//$font-family-base: "Oxygen", sans-serif !default;
+@import url(http://fonts.googleapis.com/css?family=Tangerine);
+$font-family-base: "Tangerine", serif;
+
+
+ion-title{
+  align-content: "center";
+  background-color: color($colors, navbar);
+  color: color($colors, secondary);
+}
+
+.toolbar-title {
+  color: grey;
+  font-family: "Tangerine";
+  font-size: 48px;
+}
+
+.toolbar-background {
+  background-color: color($colors, navbar);
+}
+
+.contenu{
+  text-align: center;
+}
+
+.contenu p{
+  text-align: center;
+  color: black;
+  background-color: color($colors, fond);
+  font-family: "Tangerine";
+  //font-weight: bold;
+  font-size: 48px;
+}

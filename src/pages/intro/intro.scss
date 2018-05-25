@@ -2,6 +2,12 @@ page-intro {
 
   .contenu{
     background-color: color($colors, fond);
+    font-family: "harry" !important;
+    font-weight: 400 !important;
+  }
+
+  .bouton {
+    align: right;
   }
 
 

@@ -21,4 +21,10 @@ export class Page1Page {
     console.log('ionViewDidLoad Page1Page');
   }
 
+  verifyCode() {
+    if ("zzer6354" == "zzer6354"){
+
+    }
+  }
+
 }
